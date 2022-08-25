@@ -4,199 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bitcoin Dashboard</title>
+    <!-- main css file -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome file -->
     <link rel="stylesheet" href="css/all.min.css">
+    <!-- normalize css file -->
     <link rel="stylesheet" href="css/normalize.css">
-    <!-- Google font link -->
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="chall challenge1">
-        <div class="container">
-            <div class="card">
-                <img src="images/image-qr-code.png" alt="">
-                <h3>Improve your front-end skills by building projects</h3>
-                <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    <div class="main-container">
+        <aside>
+            <a href="#"><i class="fa-solid fa-igloo"></i></a>
+            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+            <a href="#"><i class="fa-solid fa-screwdriver-wrench"></i></a>
+        </aside>
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-turkish-lira-sign"></i>
+                <span>Tradix</span>
             </div>
-            <div class="card">
-                <img src="images/image-qr-code.png" alt="">
-                <h3>Improve your front-end skills by building projects</h3>
-                <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-            </div>
-            <div class="card">
-                <img src="images/image-qr-code.png" alt="">
-                <h3>Improve your front-end skills by building projects</h3>
-                <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-            </div>
-        </div>
-    </div>
-    <div class="chall challenge2">
-        <div class="container">
-            <h1>Circle</h1>
-            <h3 class="circle">Creative Title</h3>
-            <h1>Box</h1>
-            <h3 class="box">Creative Title</h3>
-            <h1>Triangle up</h1>
-            <h3 class="tr-up">Creative Title</h3>
-            <h1>Triangle down</h1>
-            <h3 class="tr-down">Creative Title</h3>
-        </div>
-    </div>
-    <div class="chall challenge3">
-        <div class="container">
-            <div class="card card1">
-                <div>Basic</div>
-                <div> <div class="no"></div> example text</div>
-                <div> <div class="no"></div> example text</div>
-                <div> <div class="no"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-                <div> <div class="no"></div> example text</div>
-                <div> <div class="no"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-                <div> <div class="no"></div> example text</div>
-                <div> <div class="no"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-            </div>
-            <div class="card card2">
-                <div>Professional</div>
-                <div> <div class="yes"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-                <div> <div class="yes"></div> example text</div>
-            </div>
-        </div>
-    </div>
-    <div class="chall challenge4">
-        <div class="container">
-            <span>Hover on me</span>
-        </div>
-    </div>
-    <div class="chall challenge5">
-        <div class="container">
-            <h1>Buy the course &#129311</h1>
-            <p>Join over 2,300 developers who have already stepped up their database performance game!</p>
-            <div class="content">
-                <div class="card card1">
-                    <h2> <i class="fa-solid fa-star"></i> Premium Package</h2>
-                    <span>Access a total of 28 lessons</span>
-                    <span>Includes 6 additional advanced lessons on natural sorting, full-text searching and geospatial queries</span>
-                    <span>Full source code for all lessons, including MySQL, Postgres and SQLite versions (where possible)</span>
-                    <span>Over two full hours of video content</span>
-                    <span>Stream orline or download videos</span>
-                    <div class="price">
-                        <h4><sup>$</sup>149<sub>USD</sub></h4>
-                        <a href="#">Buy Now</a>
-                    </div>
-                    <span class="last">buying for your team? View the team pricing.</span>
+            <nav>
+                <div class="devise">
+                    <span>0,0025 <i class="fa-solid fa-bitcoin-sign"></i> </span>
+                    <span>219,63 USD</span>
                 </div>
-                <div class="card card2">
-                    <h2> <i class="fa-solid fa-check"></i> Essentials Package</h2>
-                    <span>Access to first 22 lessons</span>
-                    <span>Just under two hours of video content</span>
-                    <span>Stream online or download videos</span>
-                    <div class="price">
-                        <h4><sup>$</sup>99<sub>USD</sub></h4>
-                        <a href="#">Buy Now</a>
-                    </div>
+                <div class="profile">
+                    <i class="fa-solid fa-user"></i>
+                    <span>El Mehdi Wardine</span>
+                    <i class="fa-solid fa-angle-down"></i>
                 </div>
+            </nav>
+        </header>
+        <section>
+            <div class="heading">
+                Welcome, <span>El Mehdi Wardine</span>
             </div>
-        </div>
+            <div class="articles">
+                <article>
+                    <div class="buttons">
+                        <button>Buy</button>
+                        <button>Sell</button>
+                    </div>
+                        <form>
+                            <label for="currency">Currency</label> <br>
+                            <select name="currency" id="currency">
+                                <option value="bit">Bitcoin</option>
+                                <option value="usd">USD</option>
+                                <option value="mad">MAD</option>
+                            </select>
+                            <input type="text" placeholder="Enter the amount"> <br>
+                            <label for="payment">Payment Medoth</label> <br>
+                            <select name="payment" id="payment">
+                                <option value="bit">Bitcoin</option>
+                                <option value="usd">USD</option>
+                                <option value="mad">MAD</option>
+                            </select>
+                            <input type="text" placeholder="Enter the amount"> <br>
+                            <label for="amount">Enter your Amount</label> <br>
+                            <select name="amount" id="amount">
+                                <option value="bit">Bitcoin</option>
+                                <option value="usd">USD</option>
+                                <option value="mad">MAD</option>
+                            </select>
+                            <input type="text" placeholder="Enter the amount"> <br>
+                        </form>
+                        <div class="infos">
+                            <span>Monthly limit</span>
+                            <span>$49750 remaining</span>
+                        </div>
+                        <button>Exchange Now</button>
+                        <p>Note: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo consequuntur quasi modi molestiae temporibus ea, voluptate est quae incidunt aperiam? Dolore </p>
+                </article>
+                <article>
+                    <div class="peoples">
+                        <div>
+                            <img src="imgs/el mehdi wardine.jpg" alt="">
+                            <div class="infos">
+                                <span>Buyer</span>
+                                <span>El Mehdi</span>
+                                <a href="mailto:elmehdiwardine@gmail.com">elmehdiwardine@gmail.com</a>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="imgs/el mehdi wardine.jpg" alt="">
+                            <div class="infos">
+                                <span>Seller</span>
+                                <span>El Mehdi</span>
+                                <a href="mailto:elmehdiwardine@gmail.com">elmehdiwardine@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div>
+                            <span>You are selling</span>
+                            <span>0.00254 BTC</span>
+                        </div>
+                        <div>
+                            <span>Payment Method</span>
+                            <span>Bank of America Bank ***********5245</span>
+                        </div>
+                        <div>
+                            <span>Exchange Rate</span>
+                            <span>0.00212455 BTC</span>
+                        </div>
+                        <div>
+                            <span>Fee</span>
+                            <span>$28.00 USD</span>
+                        </div>
+                        <div>
+                            <span>Total</span>
+                            <span>$854.00 USD</span>
+                        </div>
+                        <div>
+                            <span>Vat</span>
+                            <span>$25.00 USD</span>
+                        </div>
+                        <div>
+                            <span>Sub Total</span>
+                            <span>$1232.00 USD</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
     </div>
-    <div class="chall challenge6">
-        <div class="container">
-            <span>EL</span>
-        </div>
-    </div>
-    <div class="chall challenge7">
-        <div class="container">
-            <div class="item1">
-                <h2>EL MEHDI WARDINE</h2>
-                <span>Full-Stack Developer</span>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, ratione. Facere laborum illo, quam beatae voluptatum enim facilis veniam. Debitis est reiciendis minima veritatis </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellat nulla quos eaque aspernatur a similique fugit, repudiandae aut quod cumque ipsam hic sint illum explicabo. </p>
-            </div>
-            <div class="item2">
-                <h2>EL MEHDI WARDINE</h2>
-                <span>IOS Developer</span>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, ratione. Facere laborum illo, quam beatae voluptatum enim facilis veniam. Debitis est reiciendis minima veritatis </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellat nulla quos eaque aspernatur a similique fugit, repudiandae aut quod cumque ipsam hic sint illum explicabo. </p>
-            </div>
-            <div class="item3">
-                <h2>EL MEHDI WARDINE</h2>
-                <span>Full-Stack Developer</span>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, ratione. Facere laborum illo, quam beatae voluptatum enim facilis veniam. Debitis est reiciendis minima veritatis </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellat nulla quos eaque aspernatur a similique fugit, repudiandae aut quod cumque ipsam hic sint illum explicabo. </p>
-            </div>
-            <div class="item4">
-                <h2>EL MEHDI WARDINE</h2>
-                <span>Full-Stack Developer</span>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, ratione. Facere laborum illo, quam beatae voluptatum enim facilis veniam. Debitis est reiciendis minima veritatis </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellat nulla quos eaque aspernatur a similique fugit, repudiandae aut quod cumque ipsam hic sint illum explicabo. </p>
-            </div>
-            <div class="item5">
-                <h2>EL MEHDI WARDINE</h2>
-                <span>Full-Stack Developer</span>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, ratione. Facere laborum illo, quam beatae voluptatum enim facilis veniam. Debitis est reiciendis minima veritatis </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellat nulla quos eaque aspernatur a similique fugit, repudiandae aut quod cumque ipsam hic sint illum explicabo. </p>
-            </div>
-            <div class="item6">
-                <h2>EL MEHDI WARDINE</h2>
-                <span>Full-Stack Developer</span>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, ratione. Facere laborum illo, quam beatae voluptatum enim facilis veniam. Debitis est reiciendis minima veritatis </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellat nulla quos eaque aspernatur a similique fugit, repudiandae aut quod cumque ipsam hic sint illum explicabo. </p>
-            </div>
-            <div class="item7">
-                <h2>EL MEHDI WARDINE</h2>
-                <span>Full-Stack Developer</span>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, ratione. Facere laborum illo, quam beatae voluptatum enim facilis veniam. Debitis est reiciendis minima veritatis </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellat nulla quos eaque aspernatur a similique fugit, repudiandae aut quod cumque ipsam hic sint illum explicabo. </p>
-            </div>
-            <div class="item8">
-                <h2>EL MEHDI WARDINE</h2>
-                <span>Full-Stack Developer</span>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, ratione. Facere laborum illo, quam beatae voluptatum enim facilis veniam. Debitis est reiciendis minima veritatis </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellat nulla quos eaque aspernatur a similique fugit, repudiandae aut quod cumque ipsam hic sint illum explicabo. </p>
-            </div>
-            <div class="item9">
-                <h2>EL MEHDI WARDINE</h2>
-                <span>Full-Stack Developer</span>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, ratione. Facere laborum illo, quam beatae voluptatum enim facilis veniam. Debitis est reiciendis minima veritatis </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellat nulla quos eaque aspernatur a similique fugit, repudiandae aut quod cumque ipsam hic sint illum explicabo. </p>
-            </div>
-            <div class="item10">
-                <h2>EL MEHDI WARDINE</h2>
-                <span>Full-Stack Developer</span>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, ratione. Facere laborum illo, quam beatae voluptatum enim facilis veniam. Debitis est reiciendis minima veritatis </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellat nulla quos eaque aspernatur a similique fugit, repudiandae aut quod cumque ipsam hic sint illum explicabo. </p>
-            </div>
-        </div>
-    </div>
-    <div class="chall challenge8">
-        <div class="container">
-            <h2>Articles</h2>
-            <form action="">
-                <input type="checkbox" id="a">
-                <label for="a">What is Garbage Collector in pregramming?</label> <br>
-                <input type="checkbox" id="b">
-                <label for="b">Statically Typed Languages vs Dynamically Typed Languages</label> <br>
-                <input type="checkbox" id="c">
-                <label for="c">Low Level vs Height Level Languages</label> <br>
-            </form>
-        </div>
-    </div>
-    <div class="top"><a href="#"><i class="fa-solid fa-arrow-up"></i></a></div>
 </body>
 </html>
